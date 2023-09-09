@@ -54,7 +54,23 @@ class Node
 		Node temp=this;
 		boolean flag = true;
 
-		if()
+		if(temp.data == data)
+		{
+			while(temp.next.data == data)
+			{
+				temp = temp.next;
+				while(temp.next != null)
+				{
+					flag = false;
+				}
+				if(flag == false)
+				{
+					break;
+				}else{
+					
+				}
+			}
+		}
 	}
 } 
 

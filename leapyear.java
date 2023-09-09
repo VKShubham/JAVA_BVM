@@ -1,8 +1,7 @@
-import java.util.*;
+import java.util.Scanner;
 
-class leapyear
-{
-	public static void main (String args[])
+public class leapyear {
+    public static void main (String args[])
 	{
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter The Year : ");
